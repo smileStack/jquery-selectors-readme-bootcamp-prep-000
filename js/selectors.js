@@ -13,14 +13,13 @@ function paragraphSelector(){
 }
 function lastImageSelector(){
   var s = $('img').last();
-console.log(s[s.length-1]);
   return s;
 }
 function ninjaBabySelector(){
 return $('#baby-ninja');
 }
 function divSelector(){
-  var s = $('div')
+  var s = $('div.pics')
   console.log(s);
   return s;
 }

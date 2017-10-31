@@ -12,9 +12,9 @@ function paragraphSelector(){
   return s;
 }
 function lastImageSelector(){
-  var s = $('img');
+  var s = $('img').last()''
 console.log(s[s.length-1]);
-  return s[s.length-1];
+  return s;
 }
 function ninjaBabySelector(){
 return $('#baby-ninja');

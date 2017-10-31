@@ -25,7 +25,7 @@ function divSelector(){
   return s;
 }
 function firstListItem(){
-  var s = $('li').first();
+  var s = $('li:first-child');
   console.log(s);
   return s;
 }

@@ -13,7 +13,7 @@ function paragraphSelector(){
 }
 function lastImageSelector(){
   var s = $('img');
-
+console.log(s[s.length-1]);
   return s[s.length-1];
 }
 function ninjaBabySelector(){
